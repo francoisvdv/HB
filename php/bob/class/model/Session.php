@@ -71,6 +71,11 @@ class Session
 	{
 		$this->data[$var] = $val;
 	}
+	
+	public function __isset($var)
+	{
+		return isset($this->data[$var]);
+	}
 }
 
 ?>
