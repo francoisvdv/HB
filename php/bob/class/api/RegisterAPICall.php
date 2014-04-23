@@ -5,6 +5,8 @@
  *
  * @author H. Donkers
  */
+namespace api;
+
 class RegisterAPICall extends APICall
 {
 	protected $user, $pass;
@@ -15,9 +17,14 @@ class RegisterAPICall extends APICall
 		$this->pass = $pass;
 	}
 	
-	public function exec()
+	public function needsIdentification()
 	{
-		
+		return false;
+	}
+	
+	public function exec(\model\Session $session)
+	{
+		trigger_error("Not supported");
 	}
 }
 

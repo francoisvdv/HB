@@ -21,6 +21,11 @@ class Configuration
 		
 		return $c;
 	}
+	
+	public static function getSessionDir()
+	{
+		return realpath(__DIR__ . "/../session/");
+	}
 }
 
 ?>

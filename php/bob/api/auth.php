@@ -1,6 +1,7 @@
 <?php
 require "../bootstrap.php";
 
-$call = new AuthAPICall($_GET['user'], $_GET['pass']);
+//$call = new \api\AuthAPICall($_GET['user'], $_GET['pass']);
+$call = new \api\AuthAPICall("huib", "pass");
 
-APICall::process($call);
+\api\APICall::process($call);
