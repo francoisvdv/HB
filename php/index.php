@@ -1,5 +1,10 @@
 <?php
-define('PP_CONFIG_PATH', './sdk_config.ini');
 
-$apiContext = new ApiContext(new OAuthTokenCredential('<clientId>', '<clientSecret>'));
+require("bootstrap.php");
+session_start();
+
+$payment = new Payment();
+$payment->setIntent("Sale");
+
+$create = $payment->create($apiContext);
 ?>
