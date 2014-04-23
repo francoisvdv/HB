@@ -1,14 +1,46 @@
 ﻿body {
-background-color: #2a2a2a;
+background: #fff url('images/bg.png') repeat-x;
 margin: 0;
 padding: 0;
 border: 0;
 }
 
 #wrapper {
-width: 550px;
 margin: 0 auto auto auto;
 }
+
+.signin_box_big_top {
+	float: left;
+	background: url('images/box_big_top.png');
+	width: 870px;
+	height: 35px;
+	margin-top: 50px;
+}
+
+.signin_box_big {
+	float: left;
+	background: url('images/box_big.png');
+	width: 870px;
+}
+
+.signin_box_big ul {
+	margin-left: 20px;
+	float: left;
+}
+
+.signin_box_big_footer {
+	float: left;
+	background: url('images/box_big_footer.png');
+	width: 870px;
+	height: 26px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
 
 .signin_box_top {
 	float: left;
