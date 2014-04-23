@@ -1,7 +1,7 @@
 <?php
-require("PayPal.php");
 
-$apiContext = getApiContext();
+require("bootstrap.php");
+session_start();
 
 $payment = new Payment();
 $payment->setIntent("Sale");
