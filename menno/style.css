@@ -24,6 +24,11 @@ margin: 0 auto auto auto;
 	width: 550px;
 }
 
+.signin_box ul {
+	margin-left: 90px;
+	float: left;
+}
+
 .signin_box_footer {
 	float: left;
 	background: url('images/box_footer.png');
