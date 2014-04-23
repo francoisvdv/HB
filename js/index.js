@@ -1,0 +1,6 @@
+// Index.html
+
+function validate()
+{
+	
+}
