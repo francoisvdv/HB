@@ -165,7 +165,7 @@
         },
         "time": "2013-01-13 10:24:48",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "classmap": [
                 "PHPUnit/"
