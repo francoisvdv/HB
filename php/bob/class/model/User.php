@@ -9,7 +9,7 @@ namespace model;
 
 class User
 {
-	protected $id, $pass, $name;
+	protected $id, $pass, $name, $authenticated;
 	
 	public function __construct($id, $name, $pass)
 	{

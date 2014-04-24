@@ -1,5 +1,5 @@
 <?php
-require "../bootstrap.php";
+require "../php/bob/bootstrap.php";
 
 //$call = new \api\SearchAPICall($_GET['sid'], $_GET['cityfrom'], $_GET['cityto']);
 //\api\APICall::process($call, $_GET['sid']);

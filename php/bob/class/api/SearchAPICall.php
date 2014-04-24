@@ -24,7 +24,7 @@ class SearchAPICall extends APICall
 	
 	public function exec(\model\Session $session)
 	{
-		return array("user"=>$session->user->name, "from"=>$this->cityfrom, "to"=>$this->cityto);
+		return array("user"=>array("id"=>$session->user->id, "name"=>$session->user->name), "from"=>$this->cityfrom, "to"=>$this->cityto);
 	}
 }
 
